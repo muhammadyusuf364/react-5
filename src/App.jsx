@@ -1,9 +1,25 @@
-import React from 'react'
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import About from "./Components/About";
+import Contact from "./Components/Contact";
+import Home from "./Components/Home";
+
+const roter = createBrowserRouter([
+  {
+    path: "/",
+    element: <Home></Home>,
+  },
+  {
+    path: "/about",
+    element: <About></About>,
+  },
+  {
+    path: "/contact",
+    element: <Contact></Contact>,
+  },
+]);
 
 function App() {
-  return (
-    <div>App</div>
-  )
+  return <RouterProvider router={roter}></RouterProvider>;
 }
 
-export default App
+export default App;
