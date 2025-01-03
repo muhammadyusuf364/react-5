@@ -10,6 +10,7 @@ function About() {
       <Link to={"/"}>Back</Link>
       <h1>about</h1>
       <p>
+        Lorem ipsum dolor sit amet consectetur.
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas
         libero voluptatum cumque accusantium cum enim blanditiis provident
         voluptate laborum tempora laboriosam, error rerum corrupti explicabo
